@@ -1,5 +1,9 @@
-import { createContex } from "react";
+import { createContext } from "react";
 
+const Contex = createContext(null);
 
-const Contex = createContex(null)
+const Provider = ({ children }) => {
+  return <Contex.Provider value={'ippamz'}>{children}</Contex.Provider>;
+};
 
+export { Contex, Provider };
