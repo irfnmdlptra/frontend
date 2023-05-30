@@ -8,7 +8,7 @@ const HomePage = ()=> {
         <h1>Ini adalah HomePage  </h1>
         {product.map((p)=> {
             return (
-                <p key={p.id}>{p.brand} </p>
+                <h2 key={p.id}>{p.brand} </h2>
             )
         })}
         </>

@@ -1,18 +1,17 @@
-import { useContext } from "react";
-import { Contex } from "./MyContex";
+import { useContext } from "react"
+import { Contex } from "./MyContex"
 
 const BannerPromotion = () => {
-  const { banner } = useContext(Contex);
+  const {banner} = useContext(Contex)
   return (
     <>
-      <h1>Banner Promotion</h1>
+      <h1>This Is Banner Promotion Section</h1>
       {banner.map((b)=> {
         return (
-            <p key={b.id}>{b.image}</p>
+          <img key={b.id} src={b.image} alt=""/>
         )
       })}
     </>
-  );
-};
-
-export default BannerPromotion;
+  )
+}
+export default BannerPromotion
