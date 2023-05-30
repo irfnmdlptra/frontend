@@ -3,7 +3,6 @@ import { Contex } from "./MyContex"
 
 const HomePage = ()=> {
     const {product} = useContext(Contex)
-    console.log(product)
     return (
         <>
         <h1>Ini adalah HomePage  </h1>

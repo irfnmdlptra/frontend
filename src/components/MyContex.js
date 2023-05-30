@@ -24,6 +24,8 @@ const Provider = ({ children }) => {
 
     useEffect(()=> {
         getDataProduct()
+        getDataCategory()
+        getDataBanner()
     },[])
 
 
