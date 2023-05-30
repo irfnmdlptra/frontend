@@ -8,7 +8,13 @@ const CategoryCard = ()=> {
         <h1>Card Category</h1>
         {category.map((c)=> {
             return (
-                <h3 key={c.id}>  {c.description}   </h3>
+                <>
+                
+                <ul>
+                    <li key={c.id}>  {c.description}</li>
+                </ul>
+             
+                </>
             )
         })}
         </>
