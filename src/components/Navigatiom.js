@@ -26,9 +26,9 @@ const Navigation = () => {
                   Product
                 </a>
               </li>
-              <li>
-                <button className="btnIcon">
-                  <i class="bi bi-cart"></i>
+              <li className="d-flex align-items-center">
+                <button className="btnIcon" >
+                  <i class="bi bi-cart" ></i>
                 </button>
               </li>
             </ul>
