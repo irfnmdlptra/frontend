@@ -4,7 +4,7 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <a className="navbar-brand" href="#">
-            Navbar
+            Ippamz Store
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -18,12 +18,12 @@ const Navigation = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Category
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Product
                 </a>
               </li>
               <li className="nav-item dropdown">
