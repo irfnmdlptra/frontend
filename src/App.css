@@ -1,20 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Montserrat:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;300;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Montserrat:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;300;500;600;700;800&display=swap");
 
 :root {
-  --primaryGreen : #22c55e;
-  --primaryBlue : #0ea5e9;
-  --primaryOrange : #ff8a00;
-  --secondaryGreen : #5eead4;
-  --secondaryBlue : #E2F8FF;
-  --secondaryOrange : #fff6e4;
-  --blackColor : #2c2c2c;
-  --gray : #9c9c9c;
-  --poppins : 'Poppins', sans-serif;
-  --montserrat :  'Montserrat', sans-serif;
-  --sans : 'PT Sans', sans-serif;
-  --inter :  'Inter', sans-serif;
+  --primaryGreen: #22c55e;
+  --primaryBlue: #0ea5e9;
+  --primaryBlue2: #00c2ff;
+  --primaryOrange: #ff8a00;
+  --secondaryGreen: #5eead4;
+  --secondaryBlue: #e2f8ff;
+  --secondaryOrange: #fff6e4;
+  --blackColor: #2c2c2c;
+  --gray: #9c9c9c;
+  --poppins: "Poppins", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --sans: "PT Sans", sans-serif;
+  --inter: "Inter", sans-serif;
 }
 
 * {
   font-family: var(--poppins);
+}
+
+.primaryBtn {
+  padding: 12px 24px;
+  gap: 10px;
+  height: 45px;
+  border: none;
+  background: var(--primaryBlue2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
