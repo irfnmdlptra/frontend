@@ -27,8 +27,9 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="d-flex align-items-center">
-                <button className="btnIcon" >
-                  <i class="bi bi-cart" ></i>
+                <button className="btnIcon">
+                  <i class="bi bi-cart"></i>
+                  <div className="circleBadge"></div>
                 </button>
               </li>
             </ul>
