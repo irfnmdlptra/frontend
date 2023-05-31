@@ -28,8 +28,8 @@ const Navigation = () => {
               </li>
             </ul>
             <div>
-                <button className="me-2">Sign In</button>
-                <button>Login</button>
+                <button className="me-2 secondaryBtn">Sign In</button>
+                <button className="primaryBtn" >Login</button>
             </div>
           </div>
         </div>
