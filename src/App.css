@@ -52,3 +52,10 @@
   border: none;
   background-color: transparent;
 }
+
+.circleBadge {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primaryBlue);
+}
