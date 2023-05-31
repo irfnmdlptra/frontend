@@ -11,7 +11,6 @@ const App = () => {
         <CategoryCard/>
         <BannerPromotion/>
       </Provider>
-      <h1>Hello World</h1>
     </>
   );
 };
