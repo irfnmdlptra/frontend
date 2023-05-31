@@ -59,7 +59,7 @@
   border-radius: 50%;
   background-color: var(--primaryBlue);
 }
-
+.nav-link.active <div className="circleBadge"></div> <div className="circleBadge"></div> <div className="circleBadge"></div>
 .nav-link.active{
   color: var(--primaryBlue) !important;
   font-weight: 600 !important;
