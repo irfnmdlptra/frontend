@@ -5,15 +5,10 @@ const BannerPromotion = () => {
   const { banner } = useContext(Contex);
   return (
     <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
       <div class="carousel-inner">
-      {banner.map((b)=> {
+      {banner.map((b, index)=> {
         return (
-          <div class="carousel-item active">
+          <div class={ index == 0 ? 'carousel-item active' : 'carousel-item'}>
           <img key={b.id} src={b.image} class="d-block w-100" alt="Banner Image" />
         </div>
         )
@@ -21,7 +16,7 @@ const BannerPromotion = () => {
      
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <i class="bi bi-arrow-left-circle-fill" aria-hidden="true"></i>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
