@@ -61,6 +61,6 @@
 }
 
 .nav-link.active{
-  color: var(--primaryBlue);
-  font-weight: 500;
+  color: var(--primaryBlue) !important;
+  font-weight: 600 !important;
 }
