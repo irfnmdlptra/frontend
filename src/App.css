@@ -21,6 +21,7 @@
 }
 body {
   background-color: #fafbfc !important;
+  height: 200vh;
 }
 .navbar {
   padding: 10px 0;
