@@ -9,7 +9,7 @@
   --secondaryOrange : #fff6e4;
   --blackColor : #2c2c2c;
   --gray : #9c9c9c;
-  --Poppins : 'Poppins';
+  --poppins : 'Poppins', sans-serif;
 }
 
 * {
