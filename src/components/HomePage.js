@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <>
       <Provider>
-        <BannerPromotion />
         <Navigation />
+        <BannerPromotion />
       </Provider>
     </>
   );
