@@ -28,7 +28,8 @@ const Navigation = () => {
               </li>
             </ul>
             <div>
-                
+                <button>Sign In</button>
+                <button>Login</button>
             </div>
           </div>
         </div>
