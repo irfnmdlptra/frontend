@@ -2,8 +2,7 @@
 
 :root {
   --primaryGreen: #22c55e;
-  --primaryBlue: #0ea5e9;
-  --primaryBlue2: #00c2ff;
+  --primaryBlue: #00c2ff;
   --primaryOrange: #ff8a00;
   --secondaryGreen: #5eead4;
   --secondaryBlue: #e2f8ff;
@@ -25,11 +24,11 @@
   gap: 10px;
   height: 45px;
   border: none;
-  background: var(--primaryBlue2);
+  background: var(--secondaryBlue);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--primaryOrange);
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -39,7 +38,7 @@
   gap: 10px;
   height: 45px;
   border: none;
-  background: var(--primaryBlue2);
+  background: var(--);
   display: flex;
   justify-content: center;
   align-items: center;
