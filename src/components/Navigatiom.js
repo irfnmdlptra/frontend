@@ -27,7 +27,7 @@ const Navigation = () => {
                 </a>
               </li>
               <li>
-                <button>
+                <button className="btnIcon">
                   <i class="bi bi-cart"></i>
                 </button>
               </li>
