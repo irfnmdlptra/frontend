@@ -1,4 +1,5 @@
 import "../src/App.css";
+import 'bootstrap-icons/font/bootstrap-icons.css'
 // import BannerPromotion from "./components/BannerPromotion";
 // import CategoryCard from "./components/CategoryCard";
 import HomePage from "./components/HomePage";
