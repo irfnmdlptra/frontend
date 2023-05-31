@@ -34,3 +34,17 @@
   font-size: 14px;
   line-height: 21px;
 }
+.secondaryBtn {
+  padding: 12px 24px;
+  gap: 10px;
+  height: 45px;
+  border: none;
+  background: var(--primaryBlue2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
