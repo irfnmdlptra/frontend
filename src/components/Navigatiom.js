@@ -26,10 +26,15 @@ const Navigation = () => {
                   Product
                 </a>
               </li>
+              <li>
+                <button>
+                  <i class="bi bi-cart"></i>
+                </button>
+              </li>
             </ul>
             <div className="d-flex">
-                <button className="me-2 secondaryBtn" >Sign In</button>
-                <button className="primaryBtn" >Login</button>
+              <button className="me-2 secondaryBtn">Sign In</button>
+              <button className="primaryBtn">Login</button>
             </div>
           </div>
         </div>
