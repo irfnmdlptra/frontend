@@ -20,7 +20,7 @@ const BannerPromotion = () => {
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <i class="bi bi-arrow-right-circle-fill"></i>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
