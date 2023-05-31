@@ -59,3 +59,7 @@
   border-radius: 50%;
   background-color: var(--primaryBlue);
 }
+
+.nav-link.active{
+  color: var(--primaryBlue);
+}
