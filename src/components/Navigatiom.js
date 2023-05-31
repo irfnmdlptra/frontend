@@ -27,7 +27,7 @@ const Navigation = () => {
                 </a>
               </li>
             </ul>
-            <div>
+            <div className="d-flex">
                 <button className="me-2 secondaryBtn">Sign In</button>
                 <button className="primaryBtn" >Login</button>
             </div>
