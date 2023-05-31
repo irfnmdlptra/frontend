@@ -1,4 +1,4 @@
-import Navigation from "./Navigatiom"
+import Navigation from "./Navigation"
 
 const HomePage = ()=> {
     return (
