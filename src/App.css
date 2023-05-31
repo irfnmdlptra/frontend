@@ -10,6 +10,9 @@
   --blackColor : #2c2c2c;
   --gray : #9c9c9c;
   --poppins : 'Poppins', sans-serif;
+  --montserrat :  'Montserrat', sans-serif;
+  --sans : 'PT Sans', sans-serif;
+  --inter :  'Inter', sans-serif;
 }
 
 * {
