@@ -47,3 +47,8 @@
   font-size: 14px;
   line-height: 21px;
 }
+
+.btnIcon {
+  border: none;
+  background-color: transparent;
+}
