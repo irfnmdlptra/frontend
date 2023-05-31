@@ -29,7 +29,7 @@ const Navigation = () => {
               <li className="d-flex align-items-center">
                 <button className="btnIcon">
                   <i class="bi bi-cart position-relative bg-danger">
-                  <div className="circleBadge position-absolute bottom-100 end-0"></div>
+                  <div className="circleBadge position-absolute top-0 start-0"></div>
                   </i>
                 </button>
               </li>
