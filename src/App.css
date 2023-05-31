@@ -38,11 +38,11 @@
   gap: 10px;
   height: 45px;
   border: none;
-  background: var(--);
+  background: var(--secondaryBlue);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--primaryOrange);
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
