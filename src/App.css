@@ -147,7 +147,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.carousel-control-next i, 
+.carousel-control-next i,
 .carousel-control-prev i {
   font-size: 30px;
 }
@@ -159,6 +159,14 @@ body {
 .title-wrapper {
   background: var(--primaryBlue);
   color: var(--whiteColor);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px 10px 10px;
+  gap: 10px;
+  width: 177px;
+  /* position: absolute; */
+  /* height: 44px;  */
 }
 
 @media screen and (max-width: 992px) {
