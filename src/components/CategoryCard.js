@@ -12,6 +12,7 @@ const CategoryCard = () => {
         <div>
             <div className="card-category">
                 <img src="" alt="Skin Care Image" />
+                
             </div>
         </div>
       {/* {category.map((c) => {
