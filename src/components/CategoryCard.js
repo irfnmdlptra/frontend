@@ -1,24 +1,19 @@
-import { useContext } from "react"
-import { Contex } from "./MyContex"
+import { useContext } from "react";
+import { Contex } from "./MyContex";
 
-const CategoryCard = ()=> {
-    const { category} = useContext(Contex)
-    return (
-        <>
-        <h1>Card Category</h1>
-        {category.map((c)=> {
-            return (
-                <>
-                
-                <ul>
-                    <li key={c.id}>  {c.description}</li>
-                </ul>
-             
-                </>
-            )
-        })}
-        </>
-    )
-}
+const CategoryCard = () => {
+  const { category } = useContext(Contex);
+  return (
+    <div className="container py-4">
+      {category.map((c) => {
+        return (
+          <ul>
+            <li key={c.id}> {c.description}</li>
+          </ul>
+        );
+      })}
+    </div>
+  );
+};
 
-export default CategoryCard
+export default CategoryCard;

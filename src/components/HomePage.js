@@ -1,5 +1,6 @@
 import Navigation from "./Navigation";
 import BannerPromotion from "./BannerPromotion";
+import CategoryCard from "./CategoryCard";
 import { Provider } from "./MyContex";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Provider>
         <Navigation />
         <BannerPromotion />
+        <CategoryCard />
       </Provider>
     </>
   );
