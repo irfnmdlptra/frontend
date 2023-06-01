@@ -5,7 +5,7 @@ const CategoryCard = () => {
   const { category } = useContext(Contex);
   return (
     <div className="container py-4">
-        <div>
+        <div className="title-wrapper">
             <h1>Category Card</h1>
         </div>
       {/* {category.map((c) => {
