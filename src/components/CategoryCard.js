@@ -8,6 +8,12 @@ const CategoryCard = () => {
         <div className="title-wrapper">
             <h6>Category Card</h6>
         </div>
+
+        <div>
+            <div className="card-category">
+                
+            </div>
+        </div>
       {/* {category.map((c) => {
         return (
           <ul>
