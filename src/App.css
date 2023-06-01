@@ -162,9 +162,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px 24px 10px 10px;
+  padding: 10px 24px 4px 10px;
   gap: 10px;
   width: 177px;
+  box-shadow: var(--shadow);
   /* position: absolute; */
   /* height: 44px;  */
 }
