@@ -155,6 +155,11 @@ body {
   margin-top: 60px;
 }
 
+.title-wrapper {
+  background: var(--primaryBlue);
+  color: var(--whiteColor);
+}
+
 @media screen and (max-width: 992px) {
   .nav-link:hover::before {
     width: 10%;
