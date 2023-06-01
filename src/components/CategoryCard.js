@@ -6,7 +6,7 @@ const CategoryCard = () => {
   return (
     <div className="container py-4">
         <div className="title-wrapper">
-            <h1>Category Card</h1>
+            <h5>Category Card</h5>
         </div>
       {/* {category.map((c) => {
         return (
